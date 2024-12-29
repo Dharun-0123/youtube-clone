@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid</title>
+    </head>
+    <body style="padding-bottom: ;">
+
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+          ">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: brown;">div 2<p>text</p></div>
+    </div>   
+
+    <div style="
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            margin-top: 30px;">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: brown;">div 2<p>text</p></div>
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: lightblue;">200px</div>
+        <div style="background-color: lightblue;">200px</div>
+    </div> 
+    
+    <div style="
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    margin-top: 30px;
+  ">
+<div style="background-color: lightblue;">100px</div>
+<div style="background-color: brown;">frree</div>
+<div style="background-color: rgb(36, 237, 123);">frree</div>
+
+</div> 
+<div style="
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 30px;
+column-gap: 20px;
+row-gap: 40px;
+">
+<div style="background-color: lightblue; height: 200px;">1f</div>
+<div style="background-color: brown; height: 200px;">1f</div>
+<div style="background-color: rgb(36, 237, 123); height: 200px;">1f</div>
+<div style="background-color: rgb(113, 120, 21); height: 200px;">1f</div>
+<div style="background-color: rgb(39, 92, 228); height: 200px;">1f</div>
+<div style="background-color: rgb(36, 237, 197); height: 200px;">1f</div>
+
+</div>  
+
+    </body>
+</html>
